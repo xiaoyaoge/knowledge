@@ -1,24 +1,4 @@
- 异步导出
-
-import vmsDataExport from '@/vms/components/vms-data-export'
-    <vms-data-export
-      @success="exportUrlFn"
-      v-bind="dataReport"
-      :visible.sync="dataReport.visible"
-      :url="dataReport.url"
-      :code="dataReport.code"
-      :params="dataReport.params"
-    ></vms-data-export>
-
-
-
-
-
-
-
-
-
-
+ 
 维修申请 
   1 列表页优化  
     1) 统计信息优化，列表添加字段 - 1天  
